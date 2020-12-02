@@ -1,0 +1,61 @@
+.my-style-title{
+    margin: 0px auto;
+}
+
+.title1{
+    max-width: 692px;
+}
+
+.title2{
+    max-width: 500px;
+}
+
+.my-style-citations{
+    max-width: 636px;
+    margin: 0px auto;
+}
+
+.my-style-img{
+    margin: 0px auto;
+}
+
+.my-style-light-font-color{
+    color:rgba(255,255,255,1)!important;
+}
+
+.my-style-dark-font-color{
+    color:rgba(0,0,0,1)!important;
+}
+
+.my-style-footer-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media all and (max-width: 470px){
+    .my-style-footer-icon-div{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px auto;
+    }
+}
+
+.my-style-space-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.my-style-link-mailto{
+    text-decoration: underline;
+    color: blue!important;
+}
+
+.my-style-link-mailto:hover{
+    text-decoration: underline;
+}
